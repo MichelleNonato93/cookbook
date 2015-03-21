@@ -1,0 +1,277 @@
+body{
+  background-color: #F4F4F4;
+}
+
+hr.black{
+  width: 100%;
+  margin-top: 1%;
+  border: 1px dashed #000;
+}
+/** home**/
+#home{
+  width: auto;
+  height: 700px;
+  background-image: url('../img/pattern.png'), url('../img/recipe.jpg');
+  background-color: transparent;
+  background-repeat: repeat, no-repeat;
+  background-position: center center;
+  -webkit-background-size: auto, cover;
+  -moz-background-size: auto, cover;
+  -o-background-size: auto, cover;
+  background-size: auto, cover;
+
+}
+#home .logo{
+  margin:10% 0 0 43%;
+}
+#home .title{
+  text-align: center;
+
+}
+#home .title p{
+  font-size: 100px;
+  color:#fff;
+  font-weight: bold;
+}
+#home .title span{
+  font-weight: bold;
+  font-size: 50px;
+  margin-top:-10%;
+  position: relative;
+  left:120px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+#home .button{
+  background-color: #B8023B;
+  color:#fff;
+  font-weight: bold;
+  margin-top: 5%;
+  text-transform:uppercase;
+  position: relative;
+  left:40%;
+}
+/** navigation **/
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+  background: #FFFFFF;
+  z-index: 50;
+  min-width: 100%;
+  padding: 10px;
+  background-color: #000;
+}
+.nav .sub-nav{
+  margin-left: 2%;
+}
+.nav .sub-nav dd a{
+  font-size: 25px;
+  margin-left:60px;
+  color:transparent;
+  display:block;
+  text-shadow: 0px 0px 5px #fff;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.nav .sub-nav dd:hover a{
+  text-shadow: 0px 0px 5px #454545;
+}
+.nav .sub-nav dd a:hover{
+  color:#fff;
+  text-shadow:0px 0px 1px #fff;
+  padding-left:10px;
+  text-decoration: underline;
+}
+/** recipe **/
+#choice{
+  background-color: #F4F4F4;
+  padding:2%;
+}
+
+#choice h2{
+  text-align: center;
+  text-transform:uppercase;
+}
+#choice h4{
+  text-align: center;
+}
+
+#choice .quote-icons{
+  width:15px;
+  height: 15px;
+  margin: 2%;
+}
+
+#choice ul li{
+  width:30%;
+  margin-right:2%;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#choice ul li:hover{
+  -webkit-transform:scale(1.050,1.050);
+  -moz-transform:scale(1.050,1.050);
+  -o-transform:scale(1.050,1.050);
+  transform:scale(1.050,1.050);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+#choice ul li a p{
+  color:#000;
+  text-align: center;
+  font-weight: bold;
+  padding: 2% 5% 1% 5%;
+}
+
+/** quote**/
+#quote{
+  background-image: url('../img/berries.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+  padding: 4%;
+}
+#quote p{
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  color:  #B8023B;
+}
+#quote span{
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+  text-transform: uppercase;
+}
+/** recipes **/
+#recipes{
+  padding: 4% 0 4% 0;
+}
+
+#recipes h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+#recipes .stars{
+  width: 100px;
+  height: 20px;
+}
+
+#recipes h3{
+  margin-top: 10%;
+}
+#recipes .imgrecipe{
+  position: relative;
+  left:-6.50%;
+}
+#recipes p{
+  color:#000;
+  font-size: 20px;
+}
+
+#recipes .button{
+  background-color: #B8023B;
+  color:#fff;
+  font-weight: bold;
+  text-transform:uppercase;
+  margin-top: 10%;
+}
+
+#recipes .button:hover{
+-webkit-box-shadow: 3px 5px 9px -1px rgba(0,0,0,0.36);
+-moz-box-shadow: 3px 5px 9px -1px rgba(0,0,0,0.36);
+box-shadow: 3px 5px 9px -1px rgba(0,0,0,0.36);
+}
+/** contact **/
+#contact{
+  padding:2% 0 4% 0;
+  background-color:#F4F4F4;
+}
+#contact .title{
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom:2%;
+}
+#contact .title h2{
+  color:#000;
+  text-transform: uppercase;
+}
+#contact input{
+  border-radius: 5px;
+  border:1px solid #B8023B;
+  background-color: transparent;
+}
+#contact input[type=text]:focus{
+  border-radius: 5px;
+  border:1px solid #B8023B;
+   : Font;
+  color:#000;
+}
+#contact textarea{
+  border-radius: 5px;
+  border:1px solid #B8023B;
+  height: 150px;
+   : Font;
+  color:#000;
+  background-color: transparent;
+}
+#contact button{
+  width: 100%;
+  font-size: 24px;
+  border-radius: 5px;
+  background-color: #B8023B;
+}
+#contact button:hover{
+  background-color: #000;
+  color:#B8023B;
+}
+::-webkit-input-placeholder {
+  color:#000;
+  font-size: 18px;
+}
+::-moz-placeholder {
+   color:#000;
+  font-size: 18px;
+}
+:-ms-input-placeholder {
+   color:#000;
+  font-size: 18px;
+}
+input:-moz-placeholder {
+  color:#000;
+  font-size: 18px;
+}
+
+/** footer **/
+.footer{
+  background-image: url('../img/gray.jpg');
+  margin:0;
+  padding: 2% 0 1% 0;
+}
+
+.footer p{
+  color:#fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+
+#catalog{
+  background-image: url('../img/catalog.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+  height: 250px;
+}
+
+#cook .stars{
+  width: 100px;
+  height: 20px;
+}
